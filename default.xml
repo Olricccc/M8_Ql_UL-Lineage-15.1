@@ -1,8 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-<remote    name="sync"
-           fetch="github.com/" />
+<remote    name="m8sdev"
+           fetch="github.com/M8s-dev" />
+		  
+		  <remote    name="los"
+           fetch="github.com/LineageOS" />
+		   
+		   <remote    name="twrp"
+           fetch="github.com/TeamWin" />
 
 
   <remote  name="github"
@@ -26,13 +32,13 @@
     
 	
 	
-	<project path="device/htc/m8qlul" name="M8s-dev/android_device_htc_m8qlul" revision="lineage-15.1" remote="sync"/>
-    <project path="kernel/htc/msm8939" name="M8s-dev/android_kernel_htc_msm8939" revision="lineage-15.1" remote="sync"/>
-    <project path="vendor/htc/m8qlul" name="M8s-dev/proprietary_vendor_m8s"  revision="lineage-15.1" remote="sync"/>
-    <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings"  revision="lineage-15.1" remote="sync"/>
-    <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.1"  remote="sync"/>
-    <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" revision="lineage-15.1"  remote="sync"/>
-    <project path="device/qcom/htc-common" name="TeamWin/android_device_qcom_htc-common" revision="android-8.1"  remote="sync"/>
+	<project path="device/htc/m8qlul" name="android_device_htc_m8qlul" revision="lineage-15.1" remote="m8sdev"/>
+    <project path="kernel/htc/msm8939" name="android_kernel_htc_msm8939" revision="lineage-15.1" remote="m8sdev"/>
+    <project path="vendor/htc/m8qlul" name="proprietary_vendor_m8s"  revision="lineage-15.1" remote="m8sdev"/>
+    <project path="packages/resources/devicesettings" name="android_packages_resources_devicesettings"  revision="lineage-15.1" remote="los"/>
+    <project path="device/qcom/common" name="android_device_qcom_common" revision="lineage-15.1"  remote="los"/>
+    <project path="packages/apps/FlipFlap" name="android_packages_apps_FlipFlap" revision="lineage-15.1"  remote="los"/>
+    <project path="device/qcom/htc-common" name="android_device_qcom_htc-common" revision="android-8.1"  remote="twrp"/>
     
 
   
