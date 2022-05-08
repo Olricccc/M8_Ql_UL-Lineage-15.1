@@ -31,7 +31,7 @@
 	
 	<project path="device/htc/m8qlul" name="M8s-dev/android_device_htc_m8qlul" revision="lineage-15.1" remote="sync"/>
     <project path="kernel/htc/msm8939" name="M8s-dev/android_kernel_htc_msm8939" revision="lineage-15.1" remote="sync"/>
-    <project path="vendor/htc/m8qlul" name="M8s-dev/proprietary_vendor_m8s" revision="lineage-15.1"remote="sync"/>
+    <project path="vendor/htc/m8qlul" name="M8s-dev/proprietary_vendor_m8s" revision="lineage-15.1" remote="sync"/>
     <project path="packages/resources/devicesettings" name="LineageOS/android_packages_resources_devicesettings" remote="sync" revision="lineage-15.1"/>
     <project path="device/qcom/common" name="LineageOS/android_device_qcom_common" revision="lineage-15.1"remote="sync"/>
     <project path="packages/apps/FlipFlap" name="LineageOS/android_packages_apps_FlipFlap" revision="lineage-15.1"remote="sync"/>
