@@ -1,5 +1,23 @@
 All needed Htc One M8s repos added to default.xml
+
 Just sync and start building
+-------------------------------------------------
+What's working
+```
+* Wifi
+* Bluetooth
+* I'll check the other things later
+```
+
+
+What's not working
+```
+* RIL (calls,sms,mobile data)
+* Bluetooth audio codecs
+* Camera
+
+```
+
 
 
 
